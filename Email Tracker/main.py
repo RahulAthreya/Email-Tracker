@@ -34,10 +34,6 @@ def askRecipientEmail():
 
 
 #search for a particular email
-def search(key,value,con):
-    result, data  = con.search(None,key,'"{}"'.format(value))
-    return data
-
 
 def emailUpdate(account, email, password, recipemail):
 
